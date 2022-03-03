@@ -4,3 +4,93 @@
     padding: 0;
     box-sizing: border-box;   
 }
+
+/* COMMON */
+.cont img{
+    width: 100%;
+}
+
+.heart{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.cont:hover .heart{
+    color: red;
+}
+
+.img1{
+    display: block;
+}
+
+.img2{
+    display: none;
+}
+
+.cont:hover .img1{
+    display: none;
+}
+
+.cont:hover .img2{
+    display: block;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+/* CONTAINER */
+.container{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    max-width: 1200px;
+    margin-bottom: 30px;
+}
+
+.cont{
+    width: calc((100%/3) - 20px);
+    margin-left: 10px;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+
+
+.sconto{
+    position: absolute;
+    left: 0;
+    top: 80%;
+}
+
+.text{
+    position: absolute;
+    left: 37px;
+    top: 80%;
+}
+
+.last-text{
+    position: absolute;
+    left: 0;
+    top: 80%;
+}
+
+/* PREZZO E MARCA */
+.prezzi > p:nth-of-type(2){
+    color: red;
+}
+
+.prezzo-inizio{
+    text-decoration:line-through;
+    color: black;
+}
